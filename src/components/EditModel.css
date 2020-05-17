@@ -32,6 +32,19 @@
     margin-right: 10px;
     cursor: pointer;
 }
+.reschedule{
+    
+    background-color: #F5CA5C;
+    padding: 10px;
+    border-radius: 8px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
 .cancel {
     background-color: #F94040;
     padding: 10px;

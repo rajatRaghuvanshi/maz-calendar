@@ -46,7 +46,7 @@ function EditModel(props) {
                                 <span>Repeats every day</span>
                             </div>
                             <div>
-                                <span className="save" onClick={handleReschedule}><Save className="edit-images" height="14px" width="14px" fill="#FFF"/>Reschedule</span>
+                                <span className="reschedule" onClick={handleReschedule}><Save className="edit-images" height="14px" width="14px" fill="#FFF"/>Reschedule</span>
                                 <span className="cancel" onClick={props.closeModel}><Cancel className="edit-images" height="14px" width="14px" fill="#FFF"/>Cancel</span>
                             </div>
                         </div>
