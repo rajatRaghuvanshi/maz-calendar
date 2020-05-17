@@ -1,0 +1,35 @@
+.calender {
+    padding: 30px;
+    text-align: center;
+}
+.time-title {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.day-card {
+    padding: 10px;
+    width: 100px;
+    margin: 2px 4px;
+    height: 60px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+}
+.day-card-day {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+.day-card-date {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.empty-box {
+    width: 70px;
+    display: inline-block;
+}
