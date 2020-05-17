@@ -1,18 +1,20 @@
 .calender {
-    padding: 30px;
+    padding: 60px;
     text-align: center;
+    overflow: scroll;
 }
 .time-title {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
-    vertical-align: middle;
     padding: 10px;
     font-size: 12px;
     font-weight: bold;
 }
 .day-card {
     padding: 10px;
-    width: 100px;
+    width: 120px;
     margin: 2px 4px;
     height: 60px;
     font-size: 12px;
@@ -32,4 +34,9 @@
 .empty-box {
     width: 70px;
     display: inline-block;
+}
+.one-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 4px;
 }

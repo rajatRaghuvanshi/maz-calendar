@@ -95,3 +95,8 @@
 .no-rep-color {
     color: #d7d3d3;
 }
+@media only screen and (max-height: 640px) {
+    .wrapper {
+        top: 20px;
+    }
+}

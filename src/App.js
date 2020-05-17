@@ -104,9 +104,9 @@ class App extends React.Component {
           if (event) {
             data[newId] = {
               ...event,
-              status: STATUS.OPEN,
-              title: STATUS.OPEN,
-              repeated: false
+              status: oldEvent.title === event.title ? STATUS.OPEN : event.status,
+              title: oldEvent.title === event.title ? STATUS.OPEN : event.title,
+              repeated: oldEvent.title === event.title ? true : (event.repeated || false)
             }
           }
         }

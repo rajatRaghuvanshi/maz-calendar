@@ -8,7 +8,7 @@ import './Calendar.css';
 function Calendar(props) {
     function renderDates() {
         return (
-            <div>
+            <div className="one-list">
                 <div className="empty-box"></div>
                 {DAYS.map(day => {
                     return (
@@ -27,7 +27,7 @@ function Calendar(props) {
             {renderDates()}
             {TIMES.map(time => {
                 return (
-                    <div key={time}>
+                    <div key={time} className="one-list">
                         <div className="time-title"><span>{time}</span></div>
                         {DAYS.map(day => {
                             const id = `${time}_${day}`;
